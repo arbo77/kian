@@ -1,9 +1,13 @@
+/* eslint-disable prettier/prettier */
 import React from 'react'
 import styled from 'styled-components'
 
 const GridFlowTag = styled.ol`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(${props=>props.minWidth || '10rem'}, 1fr));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(${(props) => props.minWidth || '10rem'}, 1fr)
+  );
   gap: 1rem;
   list-style: none;
   padding: 0;

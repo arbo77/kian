@@ -4,7 +4,7 @@ import { Grid } from './container/grid'
 import { Simple } from './container/simple'
 
 export const ExampleComponent = ({ text }) => {
-  return <div style={{padding: '10px', background: 'whitesmoke'}}>{text}</div>
+  return <div style={{ padding: '10px', background: 'whitesmoke' }}>{text}</div>
 }
 
 export const Container = {
